@@ -42,3 +42,9 @@ Using lastTwo the distribution is [0.      0.      0.62644 0.26938 0.094   0.010
 The expected number of rolls (excluding starting substats) is 2.48792
 The average CV with average rolls is 29.620271999999996
 The average CV with min rolls is 24.4142848
+
+One can calculate by hand that the expected number of rolls for the original method is 13/6 and the expected number of rolls for the firstTwo method is 19/6. For the lastTwo, one can compute it using a Markov Chain, but I decided to write a script instead.
+
+
+Conclusion:
+Depending on how the change is implemented, there will not be a drastic change to the average quality of an artifact created by the transmuter. However psychologically and emotionally, the players might benefit since the most disappointing outcomes are no longer possible.
