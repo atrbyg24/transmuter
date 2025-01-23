@@ -26,6 +26,7 @@ the chances of getting 0,1 or 2 upgrades into getting 2 upgrades.
 The following python script will simulate these changes along with the original mechanics to examine whether this is a meaningful change.
 
 Results:
+
 Using original the distribution is [0.05251 0.21955 0.35377 0.27135 0.09277 0.01005]
 
 The expected number of rolls (excluding starting substats) is 2.16247
@@ -34,6 +35,7 @@ The average CV with average rolls is 27.472302
 
 The average CV with min rolls is 22.643836800000003
 
+-------------
 
 Using firstTwo the distribution is [0.      0.      0.20758 0.45851 0.29258 0.04133]
 
@@ -43,6 +45,7 @@ The average CV with average rolls is 34.106556
 
 The average CV with min rolls is 28.1120704
 
+-------------
 
 Using lastTwo the distribution is [0.      0.      0.62644 0.26938 0.094   0.01018]
 
