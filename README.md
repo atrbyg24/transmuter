@@ -26,25 +26,31 @@ the chances of getting 0,1 or 2 upgrades into getting 2 upgrades.
 The following python script will simulate these changes along with the original mechanics to examine whether this is a meaningful change.
 
 Results:
+
 Using original the distribution is [0.05251 0.21955 0.35377 0.27135 0.09277 0.01005]
+
 The expected number of rolls (excluding starting substats) is 2.16247
+
 The average CV with average rolls is 27.472302
+
 The average CV with min rolls is 22.643836800000003
 
+-------------
 
 Using firstTwo the distribution is [0.      0.      0.20758 0.45851 0.29258 0.04133]
+
 The expected number of rolls (excluding starting substats) is 3.1676599999999997
+
 The average CV with average rolls is 34.106556
+
 The average CV with min rolls is 28.1120704
 
+-------------
 
 Using lastTwo the distribution is [0.      0.      0.62644 0.26938 0.094   0.01018]
+
 The expected number of rolls (excluding starting substats) is 2.48792
+
 The average CV with average rolls is 29.620271999999996
+
 The average CV with min rolls is 24.4142848
-
-One can calculate by hand that the expected number of rolls for the original method is 13/6 and the expected number of rolls for the firstTwo method is 19/6. For the lastTwo, one can compute it using a Markov Chain, but I decided to write a script instead.
-
-
-Conclusion:
-Depending on how the change is implemented, there will not be a drastic change to the average quality of an artifact created by the transmuter. However psychologically and emotionally, the players might benefit since the most disappointing outcomes are no longer possible.
